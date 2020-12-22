@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="TimetableCollectionViewCell" customModule="norty" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="76" height="146"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="76" height="146"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Wc4-PI-2sU">
+                        <rect key="frame" x="0.0" y="0.0" width="76" height="146"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BcL-Nr-3zI">
+                                <rect key="frame" x="1" y="1" width="74" height="144"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Hvh-lX-gru">
+                                        <rect key="frame" x="1" y="1" width="72" height="142"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="w9b-Cg-6JH">
+                                                <rect key="frame" x="5" y="10" width="62" height="106"/>
+                                                <fontDescription key="fontDescription" name="HiraMaruProN-W4" family="Hiragino Maru Gothic ProN" pointSize="14"/>
+                                                <color key="textColor" systemColor="secondaryLabelColor" red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.69999999999999996" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ああああああああああ" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ED5-uF-Yr5">
+                                                <rect key="frame" x="10" y="116" width="52" height="21"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="21" id="HDC-bn-Dss"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="HiraMaruProN-W4" family="Hiragino Maru Gothic ProN" pointSize="12"/>
+                                                <color key="textColor" systemColor="systemGrayColor" red="0.5568627451" green="0.5568627451" blue="0.57647058819999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <constraints>
+                                            <constraint firstItem="w9b-Cg-6JH" firstAttribute="centerX" secondItem="ED5-uF-Yr5" secondAttribute="centerX" id="2LN-Bl-s0V"/>
+                                            <constraint firstItem="w9b-Cg-6JH" firstAttribute="leading" secondItem="Hvh-lX-gru" secondAttribute="leading" constant="5" id="3ja-W8-E91"/>
+                                            <constraint firstAttribute="bottom" secondItem="ED5-uF-Yr5" secondAttribute="bottom" constant="5" id="OWz-qw-Olg"/>
+                                            <constraint firstItem="w9b-Cg-6JH" firstAttribute="centerX" secondItem="Hvh-lX-gru" secondAttribute="centerX" id="Qgj-pa-mEf"/>
+                                            <constraint firstItem="ED5-uF-Yr5" firstAttribute="top" secondItem="w9b-Cg-6JH" secondAttribute="bottom" id="agj-xC-DSv"/>
+                                            <constraint firstItem="w9b-Cg-6JH" firstAttribute="top" secondItem="Hvh-lX-gru" secondAttribute="top" constant="10" id="hG4-Bn-n7v"/>
+                                            <constraint firstItem="ED5-uF-Yr5" firstAttribute="leading" secondItem="Hvh-lX-gru" secondAttribute="leading" constant="10" id="icf-uo-c8q"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemGray2Color" red="0.68235294120000001" green="0.68235294120000001" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="Hvh-lX-gru" firstAttribute="top" secondItem="BcL-Nr-3zI" secondAttribute="top" constant="1" id="4RQ-Pn-XXN"/>
+                                    <constraint firstItem="Hvh-lX-gru" firstAttribute="centerY" secondItem="BcL-Nr-3zI" secondAttribute="centerY" id="KL3-Bt-E5p"/>
+                                    <constraint firstItem="Hvh-lX-gru" firstAttribute="centerX" secondItem="BcL-Nr-3zI" secondAttribute="centerX" id="L6x-Mt-ZaS"/>
+                                    <constraint firstItem="Hvh-lX-gru" firstAttribute="leading" secondItem="BcL-Nr-3zI" secondAttribute="leading" constant="1" id="Omr-I3-bih"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="BcL-Nr-3zI" firstAttribute="centerY" secondItem="Wc4-PI-2sU" secondAttribute="centerY" id="161-fT-yRL"/>
+                            <constraint firstItem="BcL-Nr-3zI" firstAttribute="top" secondItem="Wc4-PI-2sU" secondAttribute="top" constant="1" id="W4B-0b-rep"/>
+                            <constraint firstItem="BcL-Nr-3zI" firstAttribute="leading" secondItem="Wc4-PI-2sU" secondAttribute="leading" constant="1" id="dX0-ix-60s"/>
+                            <constraint firstItem="BcL-Nr-3zI" firstAttribute="centerX" secondItem="Wc4-PI-2sU" secondAttribute="centerX" id="l9k-km-Ma1"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="Wc4-PI-2sU" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="A2a-Ny-gXj"/>
+                <constraint firstItem="Wc4-PI-2sU" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" id="Fo6-2N-gsS"/>
+                <constraint firstItem="Wc4-PI-2sU" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="JOZ-t9-ffP"/>
+                <constraint firstItem="Wc4-PI-2sU" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="wLA-PW-mrz"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="150" height="240"/>
+            <connections>
+                <outlet property="className" destination="w9b-Cg-6JH" id="OC6-JN-V9I"/>
+                <outlet property="classRoom" destination="ED5-uF-Yr5" id="9pt-br-18w"/>
+            </connections>
+            <point key="canvasLocation" x="210.1449275362319" y="204.24107142857142"/>
+        </collectionViewCell>
+    </objects>
+</document>

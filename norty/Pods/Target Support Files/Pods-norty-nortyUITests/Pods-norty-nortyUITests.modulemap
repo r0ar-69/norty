@@ -1,0 +1,6 @@
+framework module Pods_norty_nortyUITests {
+  umbrella header "Pods-norty-nortyUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>541330892184-tmai3bo6lr27d20aa52tdf5ja5cuf706.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.541330892184-tmai3bo6lr27d20aa52tdf5ja5cuf706</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBcrKhQuse8ZBPu6pYR8mk5HyoVa3wicUQ</string>
+	<key>GCM_SENDER_ID</key>
+	<string>541330892184</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.shunSlab.norty</string>
+	<key>PROJECT_ID</key>
+	<string>norty-pro</string>
+	<key>STORAGE_BUCKET</key>
+	<string>norty-pro.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:541330892184:ios:a530db104446d7cc18b7ed</string>
+	<key>DATABASE_URL</key>
+	<string>https://norty-pro.firebaseio.com</string>
+</dict>
+</plist>
